@@ -22,3 +22,7 @@ cd playground-reduxsaga
 ```
 
 3. Instala las dependencias del proyecto:
+
+```shell
+npm install
+```

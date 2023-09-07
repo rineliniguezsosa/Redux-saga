@@ -8,3 +8,5 @@ Asegúrate de tener instalado lo siguiente en tu máquina:
 </ul>
 
 ## Instalación
+
+1. Clona este repositorio en tu máquina local:

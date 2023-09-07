@@ -6,3 +6,5 @@ Asegúrate de tener instalado lo siguiente en tu máquina:
    <li>Node.js (versión >=14.18.0)</li>
    <li>npm (versión >=8.0.0)</li>
 </ul>
+
+## Instalación

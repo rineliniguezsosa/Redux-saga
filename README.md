@@ -16,3 +16,7 @@ https://github.com/rineliniguezsosa/Redux-saga.git
 ```
 
 2. Navega al directorio del proyecto:
+
+```shell
+cd playground-reduxsaga
+```

@@ -26,3 +26,5 @@ cd playground-reduxsaga
 ```shell
 npm install
 ```
+
+## USO

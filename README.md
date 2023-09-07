@@ -20,3 +20,5 @@ https://github.com/rineliniguezsosa/Redux-saga.git
 ```shell
 cd playground-reduxsaga
 ```
+
+3. Instala las dependencias del proyecto:

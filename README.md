@@ -14,3 +14,5 @@ Asegúrate de tener instalado lo siguiente en tu máquina:
 ```shell
 https://github.com/rineliniguezsosa/Redux-saga.git
 ```
+
+2. Navega al directorio del proyecto:

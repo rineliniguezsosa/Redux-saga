@@ -1,11 +1,14 @@
-'
+import { Component } from 'react'
 
-function App() {
-  return (
-    <>
-      <button>Agregar</button>
-    </>
-  )
+class App extends Component{
+  render(){
+    return (
+      <>
+        <button>Agregar</button>
+      </>
+    )
+  }
 }
 
-export default App
+
+export default App;

@@ -1,4 +1,5 @@
 
-export const CardItem = (data:string[] = [],action:string) =>{
-
+export const CardItem = (data = [],action:string) =>{
+    console.log(data)
+    console.log(action)
 }

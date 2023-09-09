@@ -1,1 +1,1 @@
-//funciones asincronas
+//funciones asincronas y eventos secundarios

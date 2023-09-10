@@ -49,5 +49,9 @@ La función **yield** se utiliza en las sagas de redux para pausar la ejecución
 
 ### connect
 
+Para acceder al store y despachar acciones utilizamos la función **connect** de **react-redux** en lugar de **useDispatch** 
+
+**Nota: la función connect se usa para los componentes de Clase**
+
 ## Aplicación aún en construcción 
 ## Seguimos trabajando :hammer:

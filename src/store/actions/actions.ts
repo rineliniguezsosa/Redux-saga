@@ -6,3 +6,9 @@ export const addcard = () =>{
         data:'Hola mundo'
     }
 }
+
+export const Aumentar = () =>{
+    return {
+        type:'Aumentar',
+    }
+}

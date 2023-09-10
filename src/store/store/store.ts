@@ -5,6 +5,10 @@ import { combineReducers } from 'redux'
 
 const sagaMiddleware = createSagaMiddleware()
 
+const reducer = combineReducers({
+    
+})
+
 export const store = configureStore({
     reducer:rootReducer,
 })

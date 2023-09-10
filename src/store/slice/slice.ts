@@ -17,4 +17,4 @@ const CountSlice = createSlice({
 		
 // Action creators are generated for each case reducer function",
 export const { increment,decrementby } = CountSlice.actions
-export default CountSlice.reducer;
+export const  CountReducer =  CountSlice.reducer;

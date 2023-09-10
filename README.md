@@ -39,9 +39,11 @@ npm run dev
 
 ## Documentando lo aprendido
 
-### Call
+### call
 
 La función **call** de **redux-saga/effects** se utiliza en las sagas de Redux Saga para realizar llamadas a funciones, métodos u otras sagas de manera sincrónica.
+
+### yield
 
 ## Aplicación aún en construcción 
 ## Seguimos trabajando :hammer:

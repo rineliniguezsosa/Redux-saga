@@ -45,5 +45,7 @@ La función **call** de **redux-saga/effects** se utiliza en las sagas de Redux 
 
 ### yield
 
+La función **yield** se utiliza en las sagas de redux para pausar la ejecución de una tarea ó para esperar hasta que una tarea se complete 
+
 ## Aplicación aún en construcción 
 ## Seguimos trabajando :hammer:

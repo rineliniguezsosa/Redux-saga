@@ -55,5 +55,7 @@ Para acceder al store y despachar acciones utilizamos la función **connect** de
 
 **mapDispatchToProps.** es una función que se utiliza en la biblioteca React Redux para mapear acciones de Redux,Esta función se utiliza comúnmente junto con **connect**
 
+**mapStateToProps.** es una función utilizada en la biblioteca React Redux para mapear el estado de Redux,Esta función se utiliza comúnmente junto con **connect**
+
 ## Aplicación aún en construcción 
 ## Seguimos trabajando :hammer:

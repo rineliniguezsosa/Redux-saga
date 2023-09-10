@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import { useDispatch } from 'react-redux'
+import { connect } from 'react-redux'
 
 class App extends Component{
   render(){

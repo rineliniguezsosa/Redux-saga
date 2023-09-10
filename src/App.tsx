@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import { Component } from 'react'
 import { connect } from 'react-redux'
 

@@ -53,6 +53,10 @@ La función **put** de **redux-saga/effects** se utiliza para despachar una acci
 
 ### takeEvery
 
+La función **takeEvery** de **redux-saga/effects** se utiliza para observar constantemente un tipo específico de acción y ejecutar una función de generador de Saga 
+
+Basicamente **takeEvery** actúa como un observador de acciones y desencadena la ejecución de un generador de Saga cada vez que una acción específica es despachada en el almacén Redux.
+
 ### connect
 
 Para acceder al store y despachar acciones utilizamos la función **connect** de **react-redux** en lugar de **useDispatch** 

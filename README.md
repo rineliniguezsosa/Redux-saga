@@ -51,6 +51,8 @@ La función **yield** se utiliza en las sagas de redux para pausar la ejecución
 
 La función **put** de **redux-saga/effects** se utiliza para despachar una acción dentro de un generador de funciones de Saga. Cuando se llama a put, se crea una instrucción que indica a Redux que se debe despachar una acción en el almacén Redux.
 
+### takeEvery
+
 ### connect
 
 Para acceder al store y despachar acciones utilizamos la función **connect** de **react-redux** en lugar de **useDispatch** 

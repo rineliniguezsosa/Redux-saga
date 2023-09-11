@@ -47,6 +47,8 @@ La función **call** de **redux-saga/effects** se utiliza en las sagas de Redux 
 
 La función **yield** se utiliza en las sagas de redux para pausar la ejecución de una tarea ó para esperar hasta que una tarea se complete 
 
+### put
+
 ### connect
 
 Para acceder al store y despachar acciones utilizamos la función **connect** de **react-redux** en lugar de **useDispatch** 

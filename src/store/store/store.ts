@@ -7,6 +7,8 @@ import { watchincrement } from '../sagas'
 const sagaMiddleware = createSagaMiddleware()
 
 export const store = configureStore({
-    reducer:reducer,
+    reducer:{
+        counter:CountReducer,
+    },
 })
 

@@ -7,6 +7,7 @@ class App extends Component{
     return (
       <>
         <button>Aumentar</button>
+        <button>Decrementar</button>
       </>
     )
   }

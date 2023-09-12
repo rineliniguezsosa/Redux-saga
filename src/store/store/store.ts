@@ -5,10 +5,6 @@ import { CountReducer } from '../slice/slice'
 
 const sagaMiddleware = createSagaMiddleware()
 
-const reducer = combineReducers({
-    count:CountReducer 
-})
-
 export const store = configureStore({
     reducer:reducer,
 })

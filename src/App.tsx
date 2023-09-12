@@ -5,6 +5,11 @@ import { decrementby,increment } from './store'; //métodos del reducer ó slice
 
 
 class App extends Component{
+
+  handleincrement = () =>{
+
+  }
+  
   render(){
     return (
       <>

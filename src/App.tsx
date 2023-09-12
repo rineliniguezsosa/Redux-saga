@@ -8,7 +8,7 @@ class App extends Component{
   render(){
     return (
       <>
-        <button>Aumentar</button>
+        <button onClick={this.handleincrement}>Aumentar</button>
         <button>Decrementar</button>
       </>
     )

@@ -9,12 +9,12 @@ class App extends Component{
   handleincrement = () =>{
 
   }
-  
+
   render(){
     return (
       <>
         <button onClick={this.handleincrement}>Aumentar</button>
-        <button>Decrementar</button>
+        <button onClick={this.handledecrement}>Decrementar</button>
       </>
     )
   }

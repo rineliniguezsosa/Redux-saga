@@ -9,8 +9,8 @@ const CountSlice = createSlice({
 		increment: (state) => {
 			state.value += 1;
 		},
-		decrementby:(state,action) =>{
-			state.value+=action.payload;
+		decrementby:(state,{payload}) =>{
+			state.value+=payload;
 		}
 	}
 })

@@ -4,3 +4,4 @@ export type Counterprops = {
     decrementby:()=>void
 }
 
+export type Countervalue = Omit<Counterprops,"increment"|"decrementby">

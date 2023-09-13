@@ -10,7 +10,7 @@ const CountSlice = createSlice({
 			state.value += 1;
 		},
 		decrementby:(state,{payload}) =>{
-			state.value+=payload;
+			state.value-=payload;
 		}
 	}
 })

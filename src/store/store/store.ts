@@ -10,6 +10,7 @@ export const store = configureStore({
     reducer:{
         counter:CountReducer,
     },
+    middleware:[sagaMiddleware]
 })
 
 sagaMiddleware.run(watchincrement)

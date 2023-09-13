@@ -13,7 +13,7 @@ class App extends Component{
   handledecrement = () =>{
 
   }
-  
+
   render(){
     return (
       <>
@@ -24,5 +24,9 @@ class App extends Component{
   }
 }
 
+const mapDispatchToProps = {
+  increment,
+  decrementby
+};
 
 export default connect(mapStateToProps,mapDispatchToProps)(App);

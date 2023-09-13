@@ -34,7 +34,7 @@ const catsSlice = createSlice({
 			state.cats = payload;
 		},
 		getcatsfailed:(state) =>{
-
+			state.isLoading = false;
 		}
 	}
 })

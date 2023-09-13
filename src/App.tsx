@@ -2,12 +2,12 @@
 import { Component } from 'react'
 import { connect } from 'react-redux'
 import { decrementby,increment } from './store'; //métodos del reducer ó slice
-import { Countervalue } from '../src/store/types/Datatypes'
+import { Countervalue,Counterprops } from '../src/store/types/Datatypes'
 
-class App extends Component{
+class App extends Component<Counterprops>{
 
   handleincrement = () =>{
-
+    this.props.increment();
   }
 
   handledecrement = () =>{

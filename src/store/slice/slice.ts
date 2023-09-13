@@ -40,5 +40,5 @@ const catsSlice = createSlice({
 })
 		
 // Action creators are generated for each case reducer function",
-export const { getcatsfetch } = catsSlice.actions
+export const { getcatsfetch,getcatsuccess,getcatsfailed } = catsSlice.actions
 export const  CatsReducer =  catsSlice.reducer;

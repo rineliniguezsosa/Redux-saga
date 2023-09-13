@@ -11,7 +11,7 @@ class App extends Component<Counterprops>{
   }
 
   handledecrement = () =>{
-
+    this.props.decrementby(1);
   }
 
   render(){

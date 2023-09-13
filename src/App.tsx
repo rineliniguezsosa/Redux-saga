@@ -1,8 +1,9 @@
 /* eslint-disable react-refresh/only-export-components */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Component } from 'react'
 import { connect } from 'react-redux'
 import { decrementby,increment } from './store'; //métodos del reducer ó slice
-import { Countervalue,Counterprops } from '../src/store/types/Datatypes'
+import { Counterprops } from '../src/store/types/Datatypes'
 
 class App extends Component<Counterprops>{
 
@@ -25,7 +26,7 @@ class App extends Component<Counterprops>{
   }
 }
 
-const mapStateToProps = (state:Countervalue) =>({
+const mapStateToProps = (state:any) =>({
   value:state.counter.value,
 })
 

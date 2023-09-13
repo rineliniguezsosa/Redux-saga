@@ -17,6 +17,7 @@ class App extends Component{
   render(){
     return (
       <>
+        <p>contador:{this.props.value}</p>
         <button onClick={this.handleincrement}>Aumentar</button>
         <button onClick={this.handledecrement}>Decrementar</button>
       </>

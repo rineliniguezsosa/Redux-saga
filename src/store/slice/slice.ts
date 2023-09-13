@@ -18,3 +18,20 @@ const CountSlice = createSlice({
 // Action creators are generated for each case reducer function",
 export const { increment,decrementby } = CountSlice.actions
 export const  CountReducer =  CountSlice.reducer;
+
+const catsSlice = createSlice({
+	name: 'cats',
+	initialState:{
+		cats:[],
+		isLoading:true
+	},
+	reducers: {
+		getcatsfetch: (state) => {
+			state.isLoading = true;
+		},
+	}
+})
+		
+// Action creators are generated for each case reducer function",
+export const { getcatsfetch } = catsSlice.actions
+export const  CatsReducer =  catsSlice.reducer;

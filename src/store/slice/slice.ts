@@ -29,7 +29,7 @@ const catsSlice = createSlice({
 		getcatsfetch: (state) => {
 			state.isLoading = true;
 		},
-		getcatsuccess:()=>{
+		getcatsuccess:(state,{payload})=>{
 		
 		}
 	}

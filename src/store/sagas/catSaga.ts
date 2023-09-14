@@ -1,5 +1,5 @@
 import { put,takeEvery,call } from 'redux-saga/effects'
-import { getcatsuccess } from '../slice'
+import { getcatsuccess,getcatsfailed } from '../slice'
 
 //call allow call urls and apis
 //put allow call our actions 

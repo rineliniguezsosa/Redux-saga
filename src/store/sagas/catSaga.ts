@@ -13,7 +13,7 @@ function* getCats(){
         console.log(reducecats)
         yield put(getcatsuccess(reducecats))
     }catch(error){
-
+        yield put(getcatsfailed())
     }
 }
 

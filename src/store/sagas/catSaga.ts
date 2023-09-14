@@ -11,5 +11,5 @@ function* getCats(){
 }
 
 function* watchgetCats(){
-    
+    yield takeEvery('cats/getcatsfetch',getCats)
 }

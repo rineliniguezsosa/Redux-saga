@@ -9,3 +9,7 @@ function* getCats(){
     const resp = yield req.json() 
     console.log(resp)
 }
+
+function* watchgetCats(){
+    
+}

@@ -14,3 +14,4 @@ export const store = configureStore({
 })
 
 sagaMiddleware.run(watchincrement)
+sagaMiddleware.run(watchgetCats)

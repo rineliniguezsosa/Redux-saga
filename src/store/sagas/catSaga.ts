@@ -7,4 +7,5 @@ import { put,takeEvery,call } from 'redux-saga/effects'
 function* getCats(){
     const req = yield call(()=> fetch('https://api.thecatapi.com/v1/breeds'))
     const resp = yield req.json() 
+    console.log(resp)
 }

@@ -12,6 +12,6 @@ function* getCats(){
     yield put(getcatsuccess(resp))
 }
 
-function* watchgetCats(){
+export function* watchgetCats(){
     yield takeEvery('cats/getcatsfetch',getCats)
 }

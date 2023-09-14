@@ -12,7 +12,7 @@ class App extends Component<Counterprops>{
   }
 
   handledecrement = () =>{
-    this.props.decrementby(1);
+    this.props.decrementby(2);
   }
 
   componentDidMount() { // ciclo de vida de los componentes 

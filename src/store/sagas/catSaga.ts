@@ -6,11 +6,15 @@ import { getcatsuccess } from '../slice'
 //takevery allow watch functions or watch a function when is call
 
 function* getCats(){
-    const req = yield call(()=> fetch('https://api.thecatapi.com/v1/breeds'))
-    const resp = yield req.json() 
-    const reducecats = resp.slice(0,10)
-    console.log(reducecats)
-    yield put(getcatsuccess(reducecats))
+    try{
+        const req = yield call(()=> fetch('https://api.thecatapi.com/v1/breeds'))
+        const resp = yield req.json() 
+        const reducecats = resp.slice(0,10)
+        console.log(reducecats)
+        yield put(getcatsuccess(reducecats))
+    }catch(error){
+
+    }
 }
 
 export function* watchgetCats(){

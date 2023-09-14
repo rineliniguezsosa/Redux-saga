@@ -15,10 +15,10 @@ class App extends Component<Counterprops>{
     this.props.decrementby(1);
   }
 
-  componentDidMount() {
+  componentDidMount() { // ciclo de vida de los componentes 
     this.props.getcatsfetch()
   }
-  
+
   render(){
     return (
       <>

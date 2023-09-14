@@ -5,5 +5,5 @@ import { put,takeEvery,call } from 'redux-saga/effects'
 //takevery allow watch functions or watch a function when is call
 
 function* getCats(){
-    
+    const req = yield call(()=> fetch('https://api.thecatapi.com/v1/breeds'))
 }

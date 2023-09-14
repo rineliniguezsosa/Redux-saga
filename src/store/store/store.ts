@@ -9,6 +9,7 @@ const sagaMiddleware = createSagaMiddleware()
 export const store = configureStore({
     reducer:{
         counter:CountReducer,
+        cats:CatsReducer
     },
     middleware:[sagaMiddleware]
 })

@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Component } from 'react'
 import { connect } from 'react-redux'
-import { decrementby,increment } from './store'; //métodos del reducer ó slice
+import { decrementby,getcatsfetch,increment } from './store'; //métodos del reducer ó slice
 import { Counterprops } from '../src/store/types/Datatypes'
 
 class App extends Component<Counterprops>{

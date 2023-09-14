@@ -32,7 +32,8 @@ const mapStateToProps = (state:any) =>({
 
 const mapDispatchToProps = {
   increment,
-  decrementby
+  decrementby,
+  getcatsfetch
 };
 
 export default connect(mapStateToProps,mapDispatchToProps)(App);

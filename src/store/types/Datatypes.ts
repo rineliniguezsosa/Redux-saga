@@ -1,5 +1,6 @@
 export type Counterprops = {
     value:number,
+    cats:ResponseCats[],
     increment:()=> void,
     decrementby:(num:number)=>void,
     getcatsfetch:()=>void

@@ -25,6 +25,14 @@ class App extends Component<Counterprops>{
         <p>contador:{this.props.value}</p>
         <button onClick={this.handleincrement}>Aumentar</button>
         <button onClick={this.handledecrement}>Decrementar</button>
+        <div>
+          {this.props.cats.map(cat => (
+            <div key={cat.id}>
+              <span>{cat.name}</span>
+              <p>{cat.description}</p>
+            </div>
+          ))}
+        </div>
       </>
     )
   }
@@ -32,6 +40,7 @@ class App extends Component<Counterprops>{
 
 const mapStateToProps = (state:any) =>({
   value:state.counter.value,
+  cats:state.cats.cats
 })
 
 const mapDispatchToProps = {
